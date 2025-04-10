@@ -10,8 +10,8 @@ const Contato = () => {
           <h2 className="titulos">__Contato__</h2>
           <h3>
             <b>E aí, bora trampar juntos?</b>😊
-            <IconsContact />
           </h3>
+          <IconsContact />
         </div>
       </section>
       <Footer />
