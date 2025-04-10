@@ -1,0 +1,89 @@
+.habilidadesContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  b {
+    font-weight: 400;
+  }
+}
+
+.habilidade {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.habilidade h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.habilidade .soft {
+  color: var(--azul);
+}
+
+.habilidade ul {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.habilidade ul li {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 0 2.5rem;
+}
+
+.habilidadeTitulo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+}
+
+.habilidadeDescricao {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.softskills {
+  margin-bottom: 5rem;
+}
+
+.titulos {
+  background-image: linear-gradient(to right, #c02ee7, #6623df);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.subTitulo {
+  color: var(--roxo);
+}
+
+@media (min-width: 768px) {
+  .titulos {
+    font-size: 2.5rem;
+  }
+
+  .habilidade h3 {
+    font-size: 2rem;
+  }
+
+  .habilidade ul {
+    margin: 2rem 0;
+  }
+
+  .habilidade ul li {
+    font-size: 1.5rem;
+  }
+}

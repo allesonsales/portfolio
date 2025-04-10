@@ -1,0 +1,157 @@
+.projetosContainer {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: solid 1px var(--roxo);
+  padding: 3rem 0 2rem 0;
+}
+
+.imagemProjeto {
+  background-image: linear-gradient(to right, #c02ee7, #6623df);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagemProjeto img {
+  height: 110%;
+  width: 110%;
+  border-radius: 15px;
+  object-fit: contain;
+  object-position: center center;
+}
+
+.tituloProjeto {
+  font-size: 1.3rem;
+  color: var(--roxo);
+  font-weight: 600;
+}
+
+.descricaoProjeto {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tecnologiasProjeto {
+  color: var(--roxo);
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.linksProjeto {
+  display: flex;
+  gap: 2rem;
+  align-self: center;
+}
+
+.linksProjeto i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--roxo);
+}
+
+button {
+  background-color: var(--roxo);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .imagemProjeto {
+    width: 280px;
+    height: 280px;
+  }
+  .tituloProjeto {
+    font-size: 1.8rem;
+  }
+
+  .descricaoProjeto p {
+    font-size: 1.3rem;
+  }
+
+  .tecnologiasProjeto {
+    font-size: 1rem;
+  }
+
+  .linksProjeto i {
+    font-size: 2rem;
+  }
+
+  .linksProjeto span {
+    font-size: 1.3rem;
+  }
+
+  button {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projeto {
+    flex-direction: row;
+    gap: 3rem;
+    padding: 3rem 0 8rem 0;
+  }
+
+  .imagemProjeto {
+    width: 700px;
+    height: auto;
+    border-radius: 25%;
+  }
+
+  .imagemProjeto img {
+    width: 300px;
+  }
+
+  .descricaoProjeto {
+    text-align: left;
+  }
+
+  button {
+    width: 70px;
+    height: 70px;
+    transition: ease-in-out 0.3s;
+  }
+
+  button:hover {
+    width: 65px;
+    height: 65px;
+    transition: ease-in-out 0.3s;
+  }
+}

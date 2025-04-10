@@ -1,0 +1,41 @@
+.contatoContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--sistema);
+  padding: 3rem;
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 2rem;
+    line-height: 30px;
+    font-weight: 500;
+
+    b {
+      background-image: linear-gradient(to right, #c02ee7, #6623df);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 2rem;
+    }
+  }
+
+  .contatos {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+    justify-self: flex-end;
+    margin: 2rem 2rem 0 2rem;
+  }
+}
+
+.contatos i {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .contatoContainer {
+    .contatos {
+      font-size: 2.5rem;
+    }
+  }
+}

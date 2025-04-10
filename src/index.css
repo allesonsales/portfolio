@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "poppins";
+  line-height: 1.5;
+  font-weight: 400;
+
+  --botao-menu: #6623df;
+  --botao-menu-hover: #c02ee7;
+  --roxo: #c02ee7;
+  --azul: #6623df;
+  --sistema: #666666;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+  color: var(--sistema);
+  transition: ease-in-out 0.3s;
+}
+
+.dark {
+  background-color: #170f17;
+  --botao-menu: white;
+  --sistema: rgb(204, 204, 204);
+  transition: ease-in-out 0.3s;
+}
+
+nav {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+}
+
+section {
+  padding: 2rem 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.textoDestaque {
+  text-decoration: underline;
+  text-decoration-color: #c02ee7;
+  text-decoration-thickness: 1px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #665d69;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--roxo);
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding: 4rem 8rem;
+  }
+}

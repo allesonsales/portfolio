@@ -1,0 +1,13 @@
+.logo {
+  background-image: linear-gradient(to right, #c02ee7, #6623df);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+}

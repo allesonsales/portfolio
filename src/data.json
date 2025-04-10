@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Desaparecidos",
+    "link": "https://allesonsales.github.io/desaparecidos/",
+    "mobile": "https://i.imgur.com/1gdAQjV.png",
+    "description": "Projeto interativo que usa IA para simular investigações sobre o desaparecimento de adolescentes em um acampamento. O usuário conversa com detetives (chatbots) e descobre pistas em uma experiência envolvente e misteriosa.",
+    "git": "https://github.com/allesonsales/desaparecidos",
+    "tecnologias": "HTML / CSS / JavaScript / ReactJs / Typescript / Microsoft Copilot Studio"
+  },
+  {
+    "name": "ClickCat",
+    "link": "https://allesonsales.github.io/clickcat",
+    "mobile": "https://i.imgur.com/cBCXFBc.png",
+    "description": "Projeto pessoal de uma página para adoção de gatos, onde é possível visualizar, adicionar e gerenciar uma lista de gatos disponíveis. O projeto envolve manipulação de objetos em JSON, garantindo uma experiência dinâmica e interativa.",
+    "git": "https://github.com/allesonsales/clickcat",
+    "tecnologias": "HTML / CSS / JavaScript / ReactJs / JSON"
+  },
+  {
+    "name": "AllBooks",
+    "link": "https://allesonsales.github.io/allbooks/",
+    "mobile": "https://i.imgur.com/v32eUtB.png",
+    "description": "AllBooks é uma plataforma para gerenciamento de livros, integrada à API do Google Books, permitindo adicionar, editar e remover títulos. Desenvolvido com React, JavaScript, HTML e CSS, o projeto prioriza experiência do usuário, responsividade e interface intuitiva.",
+    "git": "https://github.com/allesonsales/allbooks",
+    "tecnologias": "HTML / CSS / JavaScript / ReactJs / API"
+  },
+  {
+    "name": "Academia CNBox",
+    "link": "https://allesonsales.github.io/cnbox/",
+    "mobile": "https://i.imgur.com/JWzgiLt.png",
+    "description": "Landing page para uma franquia de academia, o design foi elaborado para garantir uma experiência de usuário fluida em diversos dispositivos, como desktops, tablets e smartphones.",
+    "git": "https://github.com/allesonsales/cnbox",
+    "tecnologias": "HTML / CSS / bootStrap / JavaScript / ReactJs / FramerMotion"
+  },
+  {
+    "name": "Página Pedido (estudo)",
+    "link": "https://allesonsales.github.io/product-list/",
+    "mobile": "https://i.imgur.com/0ODMEY3.png",
+    "description": "Página desenvolvida para estudo de e-commerce, onde o usuário pode adicionar, remover e atualizar itens no carrinho de compras, além de finalizar o pedido",
+    "git": "https://github.com/allesonsales/product-list",
+    "tecnologias": "HTML / CSS / bootStrap / JavaScript / ReactJs"
+  }
+]
