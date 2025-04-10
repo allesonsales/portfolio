@@ -38,11 +38,12 @@ const Home = () => {
               unir estética e usabilidade para criar produtos funcionais e{" "}
               <span className="textoDestaque">impactantes</span>.
             </p>
-            <a href="portfolio/Alleson Figueredo Sales.pdf"></a>
-            <button className="curriculo">
-              <i class="bi bi-arrow-down"></i>
-              CV
-            </button>
+            <a href="/portfolio/AllesonSales.pdf" target="blank">
+              <button className="curriculo">
+                <i class="bi bi-arrow-down"></i>
+                CV
+              </button>
+            </a>
           </div>
           <div className="imageHome">
             <ShapeImage />
