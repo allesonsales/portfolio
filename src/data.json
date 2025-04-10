@@ -18,7 +18,7 @@
   {
     "name": "AllBooks",
     "link": "https://allesonsales.github.io/allbooks/",
-    "mobile": "https://i.imgur.com/v32eUtB.png",
+    "mobile": "https://i.imgur.com/sPVRPoW.png",
     "description": "AllBooks é uma plataforma para gerenciamento de livros, integrada à API do Google Books, permitindo adicionar, editar e remover títulos. Desenvolvido com React, JavaScript, HTML e CSS, o projeto prioriza experiência do usuário, responsividade e interface intuitiva.",
     "git": "https://github.com/allesonsales/allbooks",
     "tecnologias": "HTML / CSS / JavaScript / ReactJs / API"
