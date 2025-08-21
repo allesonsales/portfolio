@@ -44,8 +44,8 @@ const Habilidades = () => {
             onClick={() => toggleSection("frontend")}
           >
             <div className="habilidadeDescricao">
-              <span className="icon-park-outline--muscle"></span>
-              <h3 className="subTitulo">HardSkills</h3>
+              <span className="material-symbols--monitor-outline"></span>
+              <h3 className="subTitulo">Frontend</h3>
             </div>
             <motion.span
               {...Girar(openHability === "frontend")}
@@ -82,6 +82,43 @@ const Habilidades = () => {
                 <li>
                   <span className="icon-park-solid--robot-one"></span>
                   <b>Microsoft Copilot Studio</b>
+                </li>
+              </motion.ul>
+            )}
+          </AnimatePresence>
+        </div>
+        <div className="habilidade">
+          <div
+            className="habilidadeTitulo"
+            onClick={() => toggleSection("backend")}
+          >
+            <div className="habilidadeDescricao">
+              <span className="bx--data"></span>
+              <h3 className="subTitulo">Backend</h3>
+            </div>
+            <motion.span
+              {...Girar(openHability === "backend")}
+              className="iconamoon--arrow-down-2-bold"
+            ></motion.span>
+          </div>
+          <AnimatePresence>
+            {openHability === "backend" && (
+              <motion.ul {...Transicao(openHability === "backend")}>
+                <li>
+                  <span className="akar-icons--node-fill"></span>
+                  <b>NodeJs</b>
+                </li>
+                <li>
+                  <span className="mdi--jet-engine"></span>
+                  <b>Express</b>
+                </li>
+                <li>
+                  <span className="file-icons--sequelize"></span>
+                  <b>Sequelize</b>
+                </li>
+                <li>
+                  <span className="tabler--file-type-sql"></span>
+                  <b>SQL</b>
                 </li>
               </motion.ul>
             )}

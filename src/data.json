@@ -1,11 +1,27 @@
 [
   {
-    "name": "Desaparecidos",
-    "link": "https://allesonsales.github.io/desaparecidos/",
-    "mobile": "https://i.imgur.com/1gdAQjV.png",
-    "description": "Projeto interativo que usa IA para simular investigações sobre o desaparecimento de adolescentes em um acampamento. O usuário conversa com detetives (chatbots) e descobre pistas em uma experiência envolvente e misteriosa.",
-    "git": "https://github.com/allesonsales/desaparecidos",
-    "tecnologias": "HTML / CSS / JavaScript / ReactJs / Typescript / Microsoft Copilot Studio"
+    "name": "AlugAi",
+    "link": "https://allesonsales.github.io/alugai/login",
+    "mobile": "https://i.imgur.com/N820z7L.png",
+    "description": "O AlugAi é um aplicativo web para gestão de casas de aluguel, criado a partir de uma necessidade real. Ele permite visualizar unidades ocupadas e disponíveis, calcular valores recebidos, gerar contratos automaticamente e configurar lembretes para vencimentos de aluguéis e contratos.     👤 Usuário para testes: allesonsales@gmail.com  | 🔑 Senha: 123",
+    "git": "https://github.com/allesonsales/alugai",
+    "tecnologias": "HTML / CSS / JavaScript / Angular / Typescript /  NodeJS / Sequelize / SQL / JWT / Bcrypt / Estrutura MVC"
+  },
+  {
+    "name": "RedFlix",
+    "link": "https://allesonsales.github.io/redflix",
+    "mobile": "https://i.imgur.com/F7GBJk2.png",
+    "description": "Projeto inspirado no Netflix, porém com identidade própria. Além da autenticação, os usuários podem montar listas de filmes, comentar e curtir interações, criando uma experiência colaborativa dentro da plataforma.     👤 Usuário para testes: allesonsales@gmail.com  | 🔑 Senha: 123",
+    "git": "https://github.com/allesonsales/redflix",
+    "tecnologias": "HTML / CSS / JavaScript / React / NodeJS / Sequelize / SQL / JWT / Bcrypt / Estrutura MVC"
+  },
+  {
+    "name": "Projeto Lacrei (Voluntariado)",
+    "link": "http://projetolacrei.com.br/",
+    "mobile": "https://i.imgur.com/wA3ynIG.png",
+    "description": "SPA desenvolvida para promover o projeto APAE Lacrei, que transforma lacres de latas em cadeiras de rodas, proporcionando mobilidade e qualidade de vida para crianças e adultos com diferentes necessidades.",
+    "git": "https://github.com/allesonsales/lacrei",
+    "tecnologias": "HTML / CSS / JavaScript / React / FramerMotion"
   },
   {
     "name": "ClickCat",
@@ -13,15 +29,7 @@
     "mobile": "https://i.imgur.com/cBCXFBc.png",
     "description": "Projeto pessoal de uma página para adoção de gatos, onde é possível visualizar, adicionar e gerenciar uma lista de gatos disponíveis. O projeto envolve manipulação de objetos em JSON, garantindo uma experiência dinâmica e interativa.",
     "git": "https://github.com/allesonsales/clickcat",
-    "tecnologias": "HTML / CSS / JavaScript / ReactJs / JSON"
-  },
-  {
-    "name": "AllBooks",
-    "link": "https://allesonsales.github.io/allbooks/",
-    "mobile": "https://i.imgur.com/sPVRPoW.png",
-    "description": "AllBooks é uma plataforma para gerenciamento de livros, integrada à API do Google Books, permitindo adicionar, editar e remover títulos. Desenvolvido com React, JavaScript, HTML e CSS, o projeto prioriza experiência do usuário, responsividade e interface intuitiva.",
-    "git": "https://github.com/allesonsales/allbooks",
-    "tecnologias": "HTML / CSS / JavaScript / ReactJs / API"
+    "tecnologias": "HTML / CSS / JavaScript / React / JSON"
   },
   {
     "name": "Academia CNBox",
@@ -29,14 +37,6 @@
     "mobile": "https://i.imgur.com/JWzgiLt.png",
     "description": "Landing page para uma franquia de academia, o design foi elaborado para garantir uma experiência de usuário fluida em diversos dispositivos, como desktops, tablets e smartphones.",
     "git": "https://github.com/allesonsales/cnbox",
-    "tecnologias": "HTML / CSS / bootStrap / JavaScript / ReactJs / FramerMotion"
-  },
-  {
-    "name": "Página Pedido (estudo)",
-    "link": "https://allesonsales.github.io/product-list/",
-    "mobile": "https://i.imgur.com/0ODMEY3.png",
-    "description": "Página desenvolvida para estudo de e-commerce, onde o usuário pode adicionar, remover e atualizar itens no carrinho de compras, além de finalizar o pedido",
-    "git": "https://github.com/allesonsales/product-list",
-    "tecnologias": "HTML / CSS / bootStrap / JavaScript / ReactJs"
+    "tecnologias": "HTML / CSS / bootStrap / JavaScript / React / FramerMotion"
   }
 ]

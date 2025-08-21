@@ -40,6 +40,10 @@
   margin: 0 2.5rem;
 }
 
+.habilidade ul li span {
+  color: var(--roxo);
+}
+
 .habilidadeTitulo {
   display: flex;
   align-items: center;
@@ -52,6 +56,11 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.habilidadeDescricao span {
+  color: var(--roxo);
+  font-size: 1.8rem;
 }
 
 .softskills {

@@ -44,7 +44,7 @@ const Projetos = () => {
                     <div className="link">
                       <a href={link} target="blank">
                         <button>
-                          <i class="fa-regular fa-hand-pointer"></i>
+                          <i className="fa-regular fa-hand-pointer"></i>
                         </button>
                         <span>Link Projeto</span>
                       </a>
@@ -52,7 +52,7 @@ const Projetos = () => {
                     <div className="link">
                       <a href={git} target="blank">
                         <button>
-                          <i class="fa-brands fa-github"></i>
+                          <i className="fa-brands fa-github"></i>
                         </button>
                         <span>Código github</span>
                       </a>
