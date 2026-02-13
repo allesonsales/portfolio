@@ -23,7 +23,7 @@ const Home = () => {
             </h1>
             <div className="textTyping">
               <motion.h2 {...Digitando} className="digitando">
-                Desenvolvedor Frontend
+                Desenvolvedor Fullstack
               </motion.h2>
               <motion.span {...Cursor} className="cursor">
                 |
@@ -40,7 +40,7 @@ const Home = () => {
             </p>
             <a href="/portfolio/AllesonSales.pdf" target="blank">
               <button className="curriculo">
-                <i class="bi bi-arrow-down"></i>
+                <i className="bi bi-arrow-down"></i>
                 CV
               </button>
             </a>

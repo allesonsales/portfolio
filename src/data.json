@@ -25,18 +25,18 @@
   },
   {
     "name": "ClickCat",
-    "link": "https://allesonsales.github.io/clickcat",
+    "link": "https://clickcat.vercel.app/",
     "mobile": "https://i.imgur.com/cBCXFBc.png",
-    "description": "Projeto pessoal de uma página para adoção de gatos, onde é possível visualizar, adicionar e gerenciar uma lista de gatos disponíveis. O projeto envolve manipulação de objetos em JSON, garantindo uma experiência dinâmica e interativa.",
+    "description": "Aplicação web para adoção de gatos, permitindo cadastro,visualização e adoção dos animais disponíveis. O projeto utiliza MongoDB para persistência de dados e conta com implementação de flash messages para feedback dinâmico ao usuário, proporcionando uma experiência mais interativa e intuitiva.",
     "git": "https://github.com/allesonsales/clickcat",
-    "tecnologias": "HTML / CSS / JavaScript / React / JSON"
+    "tecnologias": "HTML / CSS / React / MongoDB / Mongoose / JWT / Bcrypt / Estrutura MV"
   },
   {
-    "name": "Academia CNBox",
+    "name": "Estúdio SB Arquitetura",
     "link": "https://allesonsales.github.io/cnbox/",
-    "mobile": "https://i.imgur.com/JWzgiLt.png",
-    "description": "Landing page para uma franquia de academia, o design foi elaborado para garantir uma experiência de usuário fluida em diversos dispositivos, como desktops, tablets e smartphones.",
+    "mobile": "https://i.imgur.com/Hag8siN.png",
+    "description": "Desenvolvimento completo do site institucional do Estúdio SB Arquitetura, desde a concepção do layout até a implementação técnica. O projeto envolveu criação do design, definição da experiência do usuário e desenvolvimento do backend em WordPress, garantindo autonomia para gestão de conteúdo. A infraestrutura foi configurada na AWS (EC2), incluindo deploy, ajustes de servidor e redirecionamentos. O site também conta com animações personalizadas para enriquecer a apresentação visual.",
     "git": "https://github.com/allesonsales/cnbox",
-    "tecnologias": "HTML / CSS / bootStrap / JavaScript / React / FramerMotion"
+    "tecnologias": "HTML / CSS / React / WordPress (Backend) / AWS / EC2"
   }
 ]

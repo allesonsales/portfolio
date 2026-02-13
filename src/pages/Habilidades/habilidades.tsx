@@ -72,6 +72,10 @@ const Habilidades = () => {
                   <b>ReactJS</b>
                 </li>
                 <li>
+                  <span className="mdi--angular"></span>
+                  <b>Angular</b>
+                </li>
+                <li>
                   <span className="lineicons--typescript"></span>
                   <b>TypeScript</b>
                 </li>
@@ -109,16 +113,20 @@ const Habilidades = () => {
                   <b>NodeJs</b>
                 </li>
                 <li>
-                  <span className="mdi--jet-engine"></span>
-                  <b>Express</b>
+                  <span className="tabler--file-type-sql"></span>
+                  <b>SQL</b>
                 </li>
                 <li>
                   <span className="file-icons--sequelize"></span>
                   <b>Sequelize</b>
                 </li>
                 <li>
-                  <span className="tabler--file-type-sql"></span>
-                  <b>SQL</b>
+                  <span className="simple-icons--mongodb"></span>
+                  <b>MongoDB</b>
+                </li>
+                <li>
+                  <span className="simple-icons--mongodb"></span>
+                  <b>Mongoose</b>
                 </li>
               </motion.ul>
             )}

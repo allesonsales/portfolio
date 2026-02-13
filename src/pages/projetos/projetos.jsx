@@ -2,15 +2,11 @@ import datajson from "../../data.json";
 import { useContext, useEffect, useState } from "react";
 import "./style.css";
 import { AnimacoesContext } from "../../provider";
-import { motion, AnimatePresence } from "framer-motion";
+import {motion, AnimatePresence } from "framer-motion";
 
 const Projetos = () => {
   const [list, setList] = useState([]);
   const animacoes = useContext(AnimacoesContext);
-
-  if (!animacoes) return null;
-
-  const { sobeDesce2 } = animacoes;
 
   useEffect(() => {
     if (datajson) {
@@ -19,6 +15,11 @@ const Projetos = () => {
       return null;
     }
   }, []);
+
+  if (!animacoes) return null;
+
+  const { sobeDesce2 } = animacoes;
+
 
   return (
     <section id="projetos">

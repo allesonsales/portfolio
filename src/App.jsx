@@ -1,6 +1,4 @@
-import { useState } from "react";
 import "./App.css";
-import MenuDesktop from "./components/menuDesktop/menuDesktop";
 import Habilidades from "./pages/Habilidades/habilidades";
 import Home from "./pages/home/home";
 import AnimacoesProvider from "./provider";
